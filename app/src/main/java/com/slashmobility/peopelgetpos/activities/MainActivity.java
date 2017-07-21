@@ -30,7 +30,7 @@ public class MainActivity extends BaseActivity {
 
     RecyclerView view_reciler;
     ArrayList<PeopleModel> arrayListPeople = new ArrayList<PeopleModel>();
-   private Toolbar toolbar;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

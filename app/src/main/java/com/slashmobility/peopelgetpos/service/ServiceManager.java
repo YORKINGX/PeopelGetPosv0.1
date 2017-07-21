@@ -31,6 +31,7 @@ public class ServiceManager {
 
           @Override
           public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {
+
               if (response.body() != null && response.body().size() > 0) {
                   callBackGetPeople.onSuccess(response.body());
               }
